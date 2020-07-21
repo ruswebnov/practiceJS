@@ -1,0 +1,33 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(back.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #333;
+  font-family: 'calibri', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.container{
+  text-align: center;
+  border: 3px solid #333;
+  padding: 1 rem;
+  font-weight: 700;
+  box-shadow: 3px 3px 10px 10px #333;
+  background-color: #fff;
+  flex: 0 0 50%;
+}
+.count{
+  display: block;
+  font-size: 40px;
+  color: rgb(255, 136, 1);
+}
+button{
+  padding: 10px 30px;
+  box-shadow: 0 0 10px #333;
+  margin: 2rem;
+  font-weight: 700;
+}
