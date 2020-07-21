@@ -1,0 +1,35 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(28, 100%, 83%);
+  color: #333;
+  font-family: 'calibri', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.container{
+ text-align: center;
+ padding: 2rem;
+ border-radius: 10px;
+ background-color: #fff;
+ flex: 0 0 80%;
+}
+#btn{
+  display: block;
+  padding: 10px 30px;
+  font-size: 30px;
+  margin: 1rem auto;
+  background-color: rgb(76, 156, 107)
+}
+#messageIn{
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+}
+#messageOut{
+  font-style: italic;
+  color: rgb(76, 156, 107)
+}
